@@ -1,0 +1,213 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-weight: 450;
+    font-style: normal;
+    background-color: #f0daab;
+}
+
+body {
+    position: absolute;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+nav {
+    padding: 1rem;
+    top: 0;
+    left: 0;
+    background-color: #dfc171;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo > a > img {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 90px;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.logo > a > h1  {
+    position: absolute;
+    top: 7%;
+    left: 45%;
+    margin: 0;
+    color: rgb(0, 0, 0);
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li {
+    margin: 0 1rem;
+}
+
+.menu li a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.content-container {
+    position: relative;
+    top: -0.5%;
+    width: 100%;
+    height: 77%;
+}
+
+.box-container-top,
+ .box-container-center,
+  .box-container-bottom {
+    position: relative;
+    width: 100%;
+}
+
+.box-container-top {
+    top: 2%;
+}
+
+.box-container-center {
+    top: 33%;
+}
+
+.box-container-bottom {
+    top: 64%;
+}
+
+.box-left, 
+ .box-center, 
+  .box-right {
+    position: absolute;
+    text-align: center;
+    width: 33%;
+}
+
+.box-left > div, 
+ .box-center > div, 
+  .box-right > div {
+    margin: 1%;
+}
+
+.box-left {
+    left: 0;
+}
+
+.box-center {
+    left: 30%;
+}
+
+.box-right {
+    left: 66%;
+}
+
+.box-left,
+ .box-center,
+  .box-right {
+    margin-top: 1%;
+}
+
+.box-img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 90px;
+}
+
+.box-left > a,
+ .box-center > a,
+  .box-right > a {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.box-left > div,
+ .box-center > div,
+  .box-right > div {
+    display: block;
+    margin-bottom: 1em;
+}
+
+
+.descrip-container {
+    position: relative;
+    padding: 2em;
+}
+
+.h1-descip {
+    text-align: left;
+    padding-left: 10%;
+    width: 100%;
+}
+
+.img-descrip {
+    position: relative;
+    top: 0;
+    float: right;
+    margin: 1em;
+    width: 200px;
+    height: 200px;
+    border-radius: 90px;
+}
+
+.p-descrip {
+    text-align: left;
+    font-size: larger;
+    margin-right: 220px;
+}
+
+.a-descrip {
+    position: relative;
+    display: block;
+    text-align: left;
+    margin-top: 2em;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 8%;
+    bottom: 0;
+    left: 0;
+    background-color: #dfc171;
+}
+
+.footer > p {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+
+
+  
